@@ -1,5 +1,6 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Routes, Link, createBrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import Home from './pages/Home';
 import Checkout from './pages/Checkout';
 import About from './pages/About';
@@ -11,7 +12,7 @@ function App() {
     <div>
       <Router basename='/YELLOW'>
         <Routes>
-          <Route exact path="/YELLOW" index element={<Home />} />
+          <Route exact path="/"  index element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path ="/contact" element={<Contact />} />
           <Route path="/checkout" element={<Checkout />} />
