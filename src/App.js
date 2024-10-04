@@ -4,15 +4,18 @@ import Home from './pages/Home';
 import Checkout from './pages/Checkout';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import ShirtsUpload from './admin/components/UploadShirt';
+
 function App() {
   return (
     <div>
-      <Router>
+      <Router basename='/YELLOW'>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" index element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path ="/contact" element={<Contact />} />
-          <Route path="checkout" element={<Checkout />} />
+          <Route path="/checkout" element={<Checkout />} />
+          <Route path="/admin/upload" element={<ShirtsUpload />} />
         </Routes>
       </Router>
     </div>

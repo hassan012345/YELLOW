@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "yellow backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hassan012345/YELLOW.git"
+  },
+  "keywords": [
+    "mern",
+    "t-shirts",
+    "yellow",
+    "backend"
+  ],
+  "author": "Hassaan Siddique",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hassan012345/YELLOW/issues"
+  },
+  "homepage": "https://github.com/hassan012345/YELLOW#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.7.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "type": "module"
+}
