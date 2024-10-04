@@ -11,11 +11,11 @@ function App() {
     <div>
       <Router basename='/YELLOW'>
         <Routes>
-          <Route path="/YELLOW" index element={<Home />} />
-          <Route path="YELLOW/about" element={<About />} />
-          <Route path ="YELLOW/contact" element={<Contact />} />
-          <Route path="YELLOW/checkout" element={<Checkout />} />
-          <Route path="YELLOW/admin/upload" element={<ShirtsUpload />} />
+          <Route exact path="/YELLOW" index element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path ="/contact" element={<Contact />} />
+          <Route path="/checkout" element={<Checkout />} />
+          <Route path="/admin/upload" element={<ShirtsUpload />} />
         </Routes>
       </Router>
     </div>
